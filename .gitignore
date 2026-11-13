@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Data (8399 .h5 games, too large for Git - see README)
+dataset/*
+!dataset/.gitkeep
+
+# Generated game logs / GIFs
+games/*
+!games/.gitkeep
+
+# Editor / OS / office lock files
+.~lock.*
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

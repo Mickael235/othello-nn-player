@@ -1,0 +1,2 @@
+exp_name,model_class,optimizer,lr,batch_size,max_epoch,filelist_train,note
+MLP9,MLP9,Adam,0.001,1000,50,train.txt,architecture_variation

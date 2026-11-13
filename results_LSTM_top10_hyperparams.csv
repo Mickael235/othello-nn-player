@@ -1,0 +1,1 @@
+exp_name,base_model,num_params,hidden_dim,dropout,optimizer,lr,batch_size,max_epoch,filelist_train,best_epoch,best_dev_accuracy,note

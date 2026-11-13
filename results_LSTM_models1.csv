@@ -1,0 +1,11 @@
+exp_name,model_class,num_params,hidden_dim,dropout,optimizer,lr,batch_size,max_epoch,filelist_train,best_epoch,best_dev_accuracy,note
+LSTMs,LSTMs,107584,128,0.1,Adam,0.001,256,50,train.txt,50,0.1895,architecture_variation
+LSTMs1,LSTMs1,14656,32,0.1,Adam,0.001,256,50,train.txt,48,0.1629,architecture_variation
+LSTMs2,LSTMs2,37440,64,0.1,Adam,0.001,256,50,train.txt,49,0.17703333333333332,architecture_variation
+LSTMs3,LSTMs3,68416,96,0.1,Adam,0.001,256,50,train.txt,50,0.19306666666666666,architecture_variation
+LSTMs4,LSTMs4,154944,160,0.1,Adam,0.001,256,50,train.txt,47,0.20376666666666668,architecture_variation
+LSTMs5,LSTMs5,218016,196,0.1,Adam,0.001,256,50,train.txt,50,0.2039,architecture_variation
+LSTMs6,LSTMs6,346176,256,0.1,Adam,0.001,256,50,train.txt,48,0.2091,architecture_variation
+LSTMs7,LSTMs7,514624,320,0.1,Adam,0.001,256,50,train.txt,45,0.21406666666666666,architecture_variation
+LSTMs8,LSTMs8,715840,384,0.1,Adam,0.001,256,50,train.txt,44,0.21863333333333335,architecture_variation
+LSTMs9,LSTMs9,1216576,512,0.1,Adam,0.001,256,50,train.txt,40,0.22056666666666666,architecture_variation
